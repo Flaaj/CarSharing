@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const header = document.querySelector(".page-header")
-    window.addEventListener("scroll", function (e) {
+    window.addEventListener("scroll", function () {
         if (window.scrollY > 150) {
             header.classList.add('page-header--sticky')
         } else {
